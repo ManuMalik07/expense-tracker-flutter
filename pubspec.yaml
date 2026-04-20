@@ -1,0 +1,34 @@
+name: expense_tracker
+description: A personal expense tracker Flutter application.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Pie chart visualization
+  fl_chart: ^0.68.0
+
+  # Local data persistence
+  shared_preferences: ^2.3.2
+
+  # Date formatting
+  intl: ^0.19.0
+
+  # Cupertino icons
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
